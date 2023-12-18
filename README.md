@@ -12,28 +12,28 @@ Notifier les utilisateurs lorsque les livres recherchés deviennent disponibles
 
 Le code est organisé en plusieurs classes :
 
-LibraryDatabase : 
+- LibraryDatabase : 
 Classe principale représentant la bibliothèque. Elle contient des méthodes pour gérer les utilisateurs, les livres et effectuer des recherches.
 
-BookFactory : 
+- BookFactory : 
 Classe pour créer des objets Livre.
 
-UserFactory : 
+- UserFactory : 
 Classe pour créer des objets Utilisateur.
 
-Book : 
+- Book : 
 Classe représentant un livre avec un titre, un auteur et une catégorie.
 
-BookSearchStrategy : 
+- BookSearchStrategy : 
 Classe abstraite pour différentes stratégies de recherche de livres.
 
-TitleSearchStrategy, AuthorSearchStrategy, CategorySearchStrategy :
+- TitleSearchStrategy, AuthorSearchStrategy, CategorySearchStrategy :
 Classes pour effectuer des recherches par titre, auteur ou catégorie.
 
-User : 
+- User : 
 Classe représentant un utilisateur de la bibliothèque.
 
-BookAvailabilityObserver : 
+- BookAvailabilityObserver : 
 Classe pour notifier les utilisateurs lorsque les livres recherchés deviennent disponibles.
 
 ## Utilisation
